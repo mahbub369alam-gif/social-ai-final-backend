@@ -1,0 +1,102 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.env
+.next
+
+# =========================
+# Node dependencies
+# =========================
+node_modules/
+
+# =========================
+# Build / Dist
+# =========================
+dist/
+build/
+out/
+coverage/
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Cache / Temp
+# =========================
+.cache/
+.tmp/
+temp/
+
+# =========================
+# AI / ML / Automation
+# =========================
+*.pkl
+*.h5
+*.onnx
+*.pt
+*.bin
+models/
+embeddings/
+vectorstore/
+
+# =========================
+# Backup / Generated
+# =========================
+backup/
+backup.*
+*.bak
+*.old
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Testing
+# =========================
+.nyc_output/
+coverage/
+
+# =========================
+# API Keys (extra safety)
+# =========================
+*key*
+*secret*
+*.pem
+*.key
+
+# backup files
+social-ai-ui/
+backup/
+backup.ts
+socialAiBot.conversation.model.ts
+backup.*
